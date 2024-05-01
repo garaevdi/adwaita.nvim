@@ -261,6 +261,24 @@ M.set = function()
     hl('GitSignsAddLn', { fg = colors.green_2, bg = colors.green_6 })
     hl('GitSignsChangeLn', { fg = colors.orange_1, bg = colors.orange_5 })
     hl("GitSignsCurrentLineBlame", { fg = colors.dark_2 })
+
+    -- Heirline
+    hl('ViModeNormal', { fg = colors.teal_4 })
+    hl('ViModeInsert', { fg = colors.orange_4 })
+    hl('ViModeVisual', { fg = colors.blue_5 })
+    hl('ViModeReplace', {  fg = colors.purple_4 })
+    hl('ViModeCommand', {  fg = colors.violet_4 })
+    hl('ViModeTerminal', {  fg = colors.brown_4 })
+
+    hl('PillMain', { bg = colors.libadwaita_dark_alt })
+    hl('PillSecondary', { bg = colors.libadwaita_tree })
+
+    hl('Red', { fg = colors.red_2 })
+    hl('Green', { fg = colors.green_2 })
+    hl('Orange', { fg = colors.orange_3 })
+    hl('Blue', { fg = colors.blue_2 })
+    hl('Purple', { fg = colors.purple_3 })
+    hl('Teal', { fg = colors.teal_2 })
 end
 
 
